@@ -1,10 +1,21 @@
 {
-    "name": "Sample",
+    "name": "QuanX签到",
     "task": [
         {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/chavyleung\/scripts\/master\/10010\/10010.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/10010.png, tag=Sample, enabled=true",
-            "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/10010_cookie.conf, tage=test"
+            "name": "10010",
+            "config": "30 9,16 * * * https:\/\/raw.githubusercontent.com\/chavyleung\/scripts\/master\/10010\/10010.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/10010.png, tag=10010, enabled=true",
+            "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/10010.cookie",
+            "//1": "打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功",
+            "//2": "然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (每日签到)",
+            "//3": "首页>天天抽奖, 系统提示 2 次: 获取Cookie: 成功 (登录抽奖) 和 获取Cookie: 成功 (抽奖次数)"
+        },
+        {
+            "name": "10086",
+            "config": "30 9,16 * * * https:\/\/raw.githubusercontent.com\/chavyleung\/scripts\/master\/10086\/10086.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/10086.png, tag=10086, enabled=true",
+            "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/10086.cookie",
+            "//1": "打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功",
+            "//2": "然后手动签到 1 次, 系统提示: 获取Cookie: 成功",
         }
     ],
-    "description": "This is a sample."
+    "description": "自用签到列表"
 }
