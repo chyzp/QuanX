@@ -5,28 +5,28 @@
             "name": "10010",
             "config": "30 9,16 * * * https:\/\/raw.githubusercontent.com\/chavyleung\/scripts\/master\/10010\/10010.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/10010.png, tag=10010, enabled=true",
             "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/10010.cookie",
-            "//1": "打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功",
-            "//2": "然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (每日签到)",
-            "//3": "首页>天天抽奖, 系统提示 2 次: 获取Cookie: 成功 (登录抽奖) 和 获取Cookie: 成功 (抽奖次数)"
+            "tip1": "打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功",
+            "tip2": "然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (每日签到)",
+            "tip3": "首页>天天抽奖, 系统提示 2 次: 获取Cookie: 成功 (登录抽奖) 和 获取Cookie: 成功 (抽奖次数)"
         },
         {
             "name": "10086",
             "config": "30 9,16 * * * https:\/\/raw.githubusercontent.com\/chavyleung\/scripts\/master\/10086\/10086.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/10086.png, tag=10086, enabled=true",
             "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/10086.cookie",
-            "//1": "打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功",
-            "//2": "然后手动签到 1 次, 系统提示: 获取Cookie: 成功"
+            "tip1": "打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功",
+            "tip2": "然后手动签到 1 次, 系统提示: 获取Cookie: 成功"
         },
         {
             "name": "Bili漫画",
-            "config": "30 9,16 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, img-url=https://raw.githubusercontent.com/Orz-3/task/master/manga.png, tag=Bili漫画, enabled=true",
-            "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/Bili漫画.cookie",
-            "//1": "打开哔哩哔哩漫画后 (AppStore中国区)，单击‘我的’, 如果通知获取cookie成功, 则可以使用此脚本."
+            "config": "30 9,16 * * * https:\/\/raw.githubusercontent.com\/NobyDa\/Script\/master\/Bilibili-DailyBonus\/Manga.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/manga.png, tag=Bili漫画, enabled=true",
+            "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/BiliManga.cookie",
+            "tip1": "打开哔哩哔哩漫画后 (AppStore中国区)，单击‘我的’, 如果通知获取cookie成功, 则可以使用此脚本."
         },
         {
             "name": "百度贴吧",
-            "config": "30 9,16 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, img-url=https://raw.githubusercontent.com/Orz-3/task/master/tieba.png, tag=百度贴吧, enabled=true",
-            "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/百度贴吧.cookie",
-            "//1": "打开哔哩哔哩漫画后 (AppStore中国区)，单击‘我的’, 如果通知获取cookie成功, 则可以使用此脚本."
+            "config": "30 9,16 * * * https:\/\/raw.githubusercontent.com\/NobyDa\/Script\/master\/BDTieBa-DailyBonus\/TieBa.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/tieba.png, tag=百度贴吧, enabled=true",
+            "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/Tieba.cookie",
+            "tip1": "打开哔哩哔哩漫画后 (AppStore中国区)，单击‘我的’, 如果通知获取cookie成功, 则可以使用此脚本."
         }
     ],
     "description": "自用签到列表"
