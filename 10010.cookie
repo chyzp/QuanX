@@ -1,0 +1,3 @@
+hostname = act.10010.com, m.client.10010.com
+# 中国联通 获取cookie
+^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm|^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign|^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
