@@ -1,0 +1,10 @@
+{
+    "name": "Sample",
+    "task": [
+        {
+            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/chavyleung\/scripts\/master\/10010\/10010.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/10010.png, tag=Sample, enabled=true",
+            "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/10010_cookie.conf, tage=test"
+        }
+    ],
+    "description": "This is a sample."
+}
