@@ -1,0 +1,3 @@
+hostname = passport.biligame.com
+#获取Bili漫画Cookie
+^https:\/\/passport\.biligame\.com\/api\/login\/sso.+?version%22%3A%22(3|4|5) url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
