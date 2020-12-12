@@ -27,6 +27,12 @@
             "config": "30 9,16 * * * https:\/\/raw.githubusercontent.com\/NobyDa\/Script\/master\/BDTieBa-DailyBonus\/TieBa.js, img-url=https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/tieba.png, tag=百度贴吧, enabled=true",
             "addons": "https:\/\/raw.githubusercontent.com\/chyzp\/QuanX\/main\/Tieba.cookie",
             "tip1": "打开哔哩哔哩漫画后 (AppStore中国区)，单击‘我的’, 如果通知获取cookie成功, 则可以使用此脚本."
+        },
+        {
+            "name": "Epic每周限免",
+            "config": "55 23 ? * THU https:\/\/raw.githubusercontent.com\/Peng-YM\/QuanX\/master\/Tasks\/epic.js, img-url=https:\/\/static-assets-prod.epicgames.com\/epic-store\/static\/favicon.ico, tag=Epic每周限免, enabled=true",
+            "addons": "",
+            "tip1": ""
         }
     ],
     "description": "自用签到列表"
